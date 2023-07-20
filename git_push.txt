@@ -1,0 +1,21 @@
+
+*********************************windows commandline conf**********************
+
+git --version
+git config --global user.name "F_NAME L_NAME"
+git config --global user.email "erw@example.com"
+
+
+*****************************new repo**********************************************
+
+git init
+git add .
+git commit . -m  "commit"
+git remote add origin https://github.com/surendra-srikakolapu/(root or repo name).git
+git branch -M main
+git push -u origin main
+
+
+*****************************************tut-link*************************************
+
+https://www.geeksforgeeks.org/using-git-on-commandline/
